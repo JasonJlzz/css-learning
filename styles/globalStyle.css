@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	position: 0;
+}
+
+img{
+  border: none;
+}
+.lf{
+  float: left;
+}
+.rf{
+  float: right;
+}
+
+.clearfix {
+  zoom:1;
+}
+
+.clearfix:after{
+  content: ",";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.min-box{
+  width: 31%;
+  padding-bottom: 31%;
+  margin: 1%;
+  background-color: #FF9900;
+  border-radius: 10%;
+  float: left;
+
+}
